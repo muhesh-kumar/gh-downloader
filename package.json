@@ -1,11 +1,11 @@
 {
-  "name": "ghub-dl",
+  "name": "github-downloader",
   "version": "1.0.0",
   "description": "A CLI tool to download files and folders from github.com",
   "main": "bin/index.js",
   "types": "bin/index.d.ts",
   "bin": {
-    "ghub-dl": "bin/index.js"
+    "gh-dl": "bin/index.js"
   },
   "repository": {
     "type": "git",

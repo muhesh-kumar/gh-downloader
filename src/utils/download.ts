@@ -43,6 +43,11 @@ exports.getDownloadCommand = () => {
     .parse(process.argv);
   const options = program.opts();
 
+  if (!process.argv.slice(2).length) {
+    program.outputHelp();
+    process.exit();
+  }
+
   const argv = yargs(process.argv.slice(2)).argv;
 
   // get the input URL
