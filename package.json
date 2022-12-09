@@ -1,5 +1,5 @@
 {
-  "name": "github-downloader",
+  "name": "gh-downloader",
   "version": "1.0.0",
   "description": "A CLI tool to download files and folders from github.com",
   "main": "bin/index.js",
