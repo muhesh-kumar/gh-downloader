@@ -1,5 +1,3 @@
-// urlContents = []
-
 const isValidUrl = (urContents: string[]) => urContents.length >= 4;
 
 exports.isFile = (urlContents: string[]) =>

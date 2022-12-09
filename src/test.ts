@@ -3,9 +3,10 @@
   as we can easily get API rate limit exceeded
 */
 
-import { parse } from 'url';
-import fs from 'fs';
-import fetch from 'node-fetch';
+const { parse } = require('url');
+const fs = require('fs');
+const fetch = require('node-fetch');
+
 
 const hardCodedLinks = [
   'https://github.com/muhesh-kumar/playlist-descriptor/blob/main/static/style.css',

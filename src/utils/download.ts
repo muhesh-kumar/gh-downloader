@@ -1,6 +1,6 @@
+const yargs = require('yargs');
 const { exec } = require('child_process');
 const { Command } = require('commander');
-const yargs = require('yargs');
 
 const { isFile, isDirectory, isRepo } = require('./typeOfUrl');
 const { INVALID_URL_ERROR_MESSAGE } = require('../constants/index');
