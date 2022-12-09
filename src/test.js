@@ -1,8 +1,11 @@
+/* 
+  This way of using GitHub API is not efficient 
+  as we can easily get API rate limit exceeded
+*/
+
 import { parse } from 'url';
 import fs from 'fs';
-import https from 'https';
 import fetch from 'node-fetch';
-import path from 'path';
 
 const hardCodedLinks = [
   'https://github.com/muhesh-kumar/playlist-descriptor/blob/main/static/style.css',
@@ -37,5 +40,3 @@ async function test() {
   fs.writeFile();
 }
 test();
-
-// This way of using GitHub API is not efficient as we can easily get API rate limit exceeded

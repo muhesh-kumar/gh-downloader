@@ -10,3 +10,7 @@
 - Download any directory in a repo
 - Should be able to download it in any given directory
 - Default download directory should be the current directory from which the command is executed
+
+## References
+
+- https://blog.logrocket.com/building-typescript-cli-node-js-commander

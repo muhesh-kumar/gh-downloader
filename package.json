@@ -2,11 +2,10 @@
   "name": "ghub-dl",
   "version": "1.0.0",
   "description": "A CLI tool to download files and folders from github.com",
-  "type": "module",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "bin/index.js",
+  "types": "bin/index.d.ts",
   "bin": {
-    "ghub-dl": "./bin/index.js"
+    "ghub-dl": "bin/index.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +26,8 @@
     "url": "https://github.com/muhesh-kumar/github-downloader/issues"
   },
   "dependencies": {
+    "commander": "^9.4.1",
+    "figlet": "^1.5.2",
     "node-fetch": "^3.3.0",
     "yargs": "^17.3.1"
   },
@@ -36,6 +37,6 @@
     "typescript": "^4.9.4"
   },
   "files": [
-    "lib/**/*"
+    "bin/**/*"
   ]
 }
