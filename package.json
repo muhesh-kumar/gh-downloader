@@ -5,7 +5,7 @@
   "main": "bin/index.js",
   "types": "bin/index.d.ts",
   "bin": {
-    "gh-dl": "bin/index.js"
+    "ghdl": "bin/index.js"
   },
   "repository": {
     "type": "git",
