@@ -12,6 +12,16 @@ Why make a NPM Package instead of a shell script?
 - Save the downloaded contents in any given directory
 - Default download directory is the present working directory from which the command is executed
 
+## Installation
+
+1. Download and Install Subversion
+   - Windows Installation https://tortoisesvn.net/downloads.html
+
+   - Ubuntu Installation `sudo apt install subversion`
+
+2. Install the npm package
+   `npm i gh-downloader -g`
+
 ## Usage
 
 `ghdl -V #to get the version of the downloader`
