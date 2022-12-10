@@ -1,6 +1,6 @@
 {
   "name": "gh-downloader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A CLI tool to download files and folders from github.com",
   "main": "bin/index.js",
   "types": "bin/index.d.ts",
