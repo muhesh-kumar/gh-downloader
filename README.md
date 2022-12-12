@@ -15,9 +15,10 @@ Why make a NPM Package instead of a shell script?
 ## Installation
 
 1. Download and Install Subversion
-   - Windows Installation https://tortoisesvn.net/downloads.html
 
-   - Ubuntu Installation `sudo apt install subversion`
+   - Windows Installation https://tortoisesvn.net/downloads.html
+   - macOS Installation `brew install subversion`
+   - Linux(Ubuntu) Installation `sudo apt install subversion`
 
 2. Install the npm package
    `npm i gh-downloader -g`
@@ -61,7 +62,3 @@ Why make a NPM Package instead of a shell script?
 1. Downloading a file from a repo and saving it in an arbitrary path
 
    `ghdl https://github.com/muhesh-kumar/playlist-descriptor/tree/main/static/style.css -sh ~/Desktop`
-
-## References
-
-- https://blog.logrocket.com/building-typescript-cli-node-js-commander
